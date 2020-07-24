@@ -426,6 +426,8 @@ p {
 }
 
 .testimonial__speech-bubble p {
+    font-size: var(--font-micro);
+    font-weight: var(--font-regular);
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -482,5 +484,26 @@ p {
         text-align: center;
         width: 100%;
         display: none;
+    }
+
+    .about__majors {
+        flex-direction: column;
+    }
+
+    .major {
+        margin-bottom: 38px;
+    }
+
+    .skillset {
+        flex-direction: column;
+    }
+
+    .project {
+        flex-grow: 1;
+    }
+
+    .testimonial__avatar {
+        width: 80px;
+        height: 80px;
     }
 }
