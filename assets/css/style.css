@@ -209,8 +209,7 @@ p {
 }
 
 .job__logo {
-    height: 40px;
-    max-width: 100px;
+    width: 40px;
 }
 
 .job__description {
